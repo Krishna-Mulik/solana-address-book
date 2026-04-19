@@ -1,0 +1,8 @@
+{
+  "Domain": {
+    "value": "http://localhost:3000",
+    "type": "string",
+    "id": "c6394ec3-cae6-4464-900b-6d06f53dd013",
+    "isSecret": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "solana-address-book",
+  "version": "1.0.0",
+  "description": "Build a REST API for managing a Solana address book. Store contacts with auto-detected address types (wallet vs PDA), derive Associated Token Accounts, verify address ownership via ed25519 signatures, and derive PDAs.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krishna-Mulik/solana-address-book.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krishna-Mulik/solana-address-book/issues"
+  },
+  "homepage": "https://github.com/Krishna-Mulik/solana-address-book#readme",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0",
+    "express": "^5.2.1",
+    "tweetnacl": "^1.0.3",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0"
+  }
+}

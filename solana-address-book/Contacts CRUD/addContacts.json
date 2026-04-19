@@ -1,0 +1,21 @@
+{
+  "name": "addContacts",
+  "rank": "av",
+  "request": {
+    "type": "http",
+    "url": "{{Domain}}/api/contacts",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "POST",
+    "queryParams": [],
+    "headers": [],
+    "body": "{\n  \"name\": \"myfirstkey\",\n  \"address\": \"5oNDL3swdJJF1g9DzJiZ4ynHXgszjAEpUkxVYejchzrY\"\n}",
+    "contentType": "application/json",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

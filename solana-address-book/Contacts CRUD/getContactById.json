@@ -1,0 +1,21 @@
+{
+  "name": "getContactById",
+  "rank": "aw",
+  "request": {
+    "type": "http",
+    "url": "{{Domain}}/api/contacts/1",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "GET",
+    "queryParams": [],
+    "headers": [],
+    "body": "",
+    "contentType": "text/plain",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

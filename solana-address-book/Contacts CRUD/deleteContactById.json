@@ -1,0 +1,21 @@
+{
+  "name": "deleteContactById",
+  "rank": "ay",
+  "request": {
+    "type": "http",
+    "url": "{{Domain}}/api/contacts/1",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "DELETE",
+    "queryParams": [],
+    "headers": [],
+    "body": "",
+    "contentType": "text/plain",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

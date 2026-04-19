@@ -1,0 +1,21 @@
+{
+  "name": "getContacts",
+  "rank": "auntit17753704766761",
+  "request": {
+    "type": "http",
+    "url": "{{Domain}}/api/contacts",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "GET",
+    "queryParams": [],
+    "headers": [],
+    "body": "",
+    "contentType": "text/plain",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "updateContactName",
+  "rank": "ax",
+  "request": {
+    "type": "http",
+    "url": "{{Domain}}/api/contacts/1",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "PATCH",
+    "queryParams": [],
+    "headers": [],
+    "body": "{\n  \"name\": \"myfirstcontact updated\"\n}",
+    "contentType": "application/json",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "deriveCotactATA",
+  "rank": "auntit17761027830161",
+  "request": {
+    "type": "http",
+    "url": "{{Domain}}/api/contacts/1/derive-ata",
+    "scripts": {
+      "preRequest": "",
+      "postResponse": ""
+    },
+    "method": "POST",
+    "queryParams": [],
+    "headers": [],
+    "body": "{\n  \"mintAddress\": \"EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v\"\n}",
+    "contentType": "application/json",
+    "auth": {
+      "currentAuthType": "INHERIT",
+      "authConfigStore": {}
+    },
+    "pathVariables": []
+  }
+}
